@@ -34,25 +34,21 @@
             </form>
         </section>
 
-        <section id="task-list">
-<section id="filter-options">
-    <h3>Filter Tasks</h3>
-    <label for="filter-priority">Priority:</label>
-    <select id="filter-priority">
-        <option value="all">All</option>
-        <option value="low">Low</option>
-        <option value="medium">Medium</option>
-        <option value="high">High</option>
-    
-
-    <label for="filter-date">Due Date:</label>
-    <input type="date" id="filter-date">
-    <button onclick="filterTasks()">Filter</button>
-</section>
 <section id="search-section">
     <h3>Search Tasks</h3>
+    
     <input type="text" id="search-bar" placeholder="Search tasks...">
-    <button onclick="searchTasks()">Search</button>
+      <label for="filte-priority">Priority:</label>
+        <select id="filer-priority">
+          <option value="all">All</option>
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+       </select>
+       <abel for="filter-date">Due Date:</label>
+         <input type="date" id="flter-date">
+         <button onclick="searchTasks()">searchTasks
+        </button>
 </section>
             <h3>Your Tasks</h3>
             <div id="tasks"></div>
